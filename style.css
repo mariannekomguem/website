@@ -5,13 +5,92 @@ body{
 }
 nav{
     display:flex;
-    background: red;
     justify-content: space-between;
+}
+.logo{
+    font-size: 16px;
 }
 nav img{
     height: 4%;
     width: 4%;
+    align-self: center;
+}
+span{
+    color:blueviolet;
+}
+.nav-menu{
+    flex: 60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 a{
     text-decoration: none;
+    color: rgb(52, 51, 51);
+    margin: 0% 2% 0% 2%;
+    
+}
+a:hover{
+    color:blueviolet;
+}
+.home-section{
+    display: flex;
+    height: 670px;
+}
+.right{
+    
+    flex: 50%;
+    align-content: center;
+}
+.left{
+    background-color: ;
+    flex: 50%;
+    
+}
+.right div{
+    width: 60%;
+    float: right;
+    height: 40%;
+    border: 1px solid rgb(146,144,144);
+    margin: auto;
+    padding:8%;
+    border-radius: 50%;
+
+}
+.right img{
+    width: 100%;
+    height: 100%;
+border-radius: 50% ;
+}
+.grettings{
+    margin-top: 24%;
+    font-size: 16x;
+    color:rgb(52, 51, 51);
+    margin-top: -15px;
+}
+.primary-text{
+    margin-bottom: 5px;
+    font-size:50px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 30px;
+    color:rgb(52, 51, 51);
+
+}
+.secondary-text{
+    font-size: 16px;
+    color:gray;
+}
+.primary-btn{
+background-color:rgb(52, 51, 51) ;
+color: white;
+}
+.secondary{
+    background-color:
+    color:rgb(236, 234,234);
+    padding:2% 4% 2% 4%;
+    boder:none;
+    box-shadow:1px 3x 8px 
+    border-radius:10px;
+    margin-left:2%;
 }
