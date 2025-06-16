@@ -101,9 +101,71 @@ button:hover{
     background:black ;
     color: white;   
 }
-.container{
+.about{
+    text-align: center;
+    padding: 50px  20px;   
+}
+.about h2{
+    color:green;
+    font-size: 24px;
+    text-transform: lowercase;
+    font-weight: bold;
+}
+.dot{
+    display: inline-block;
+    width:16px ;
+    height: 16px;
+    background: linear-gradient(green,lightgreen);
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.about p{
+    color:#555;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+.about h3{
+    color:green;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.skills-wrapper{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+.skill-label{
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+.skills-container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill-box{
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(34,197,94,0.2);
+    border: 1.5px solid #22c55e;
+    text-align: center;
+    width: 100px;
+}
+.skill-box img{
+    width: 40px;
+    height: auto;
+}
+.skill-box p{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
 }
