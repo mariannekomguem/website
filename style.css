@@ -5,7 +5,7 @@ body{
 }
 nav{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 .logo{
     font-size: 16px;
@@ -35,17 +35,21 @@ a:hover{
 }
 .home-section{
     display: flex;
-    height: 670px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 50px;
+
 }
 .right{
     
-    flex: 50%;
-    align-content: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 .left{
-    background-color: ;
-    flex: 50%;
-    
+
+    flex:1;
 }
 .right div{
     width: 60%;
@@ -58,13 +62,17 @@ a:hover{
 
 }
 .right img{
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 border-radius: 50% ;
+border: 10px solid #eee;
+box-shadow: 0 0 0  20px #f9f9f9;
+
 }
 .grettings{
     margin-top: 24%;
-    font-size: 16x;
+    font-size: 16px;
     color:rgb(52, 51, 51);
     margin-top: -15px;
 }
@@ -80,17 +88,22 @@ border-radius: 50% ;
 .secondary-text{
     font-size: 16px;
     color:gray;
+ margin-left:2%;
 }
-.primary-btn{
-background-color:rgb(52, 51, 51) ;
-color: white;
+button{
+    padding: 10px 10px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    background: white;
+    cursor: pointer;
 }
-.secondary{
-    background-color:
-    color:rgb(236, 234,234);
-    padding:2% 4% 2% 4%;
-    boder:none;
-    box-shadow:1px 3x 8px 
-    border-radius:10px;
-    margin-left:2%;
+button:hover{
+    background:black ;
+    color: white;   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
 }
